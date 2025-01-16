@@ -1,0 +1,71 @@
+.container{
+    display: grid;
+    min-width: 500px;
+    min-height: 400px;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    /* grid-auto-flow: dense;  */
+    /* by default it is row only  */
+    /* that's why it is coming in row in order to make it column
+    make it column
+    
+    */
+    grid-auto-rows: 100px;
+    /* if number of rows becomes  less than our data then 
+    new row gets created with content height but if you want to make
+    that also fix then we can use above property
+    */
+
+  
+
+
+}
+
+.box1{
+background-color: red;
+/* grid-column-start: 3; */
+ /*  box will start from 
+3rd column but grid-auto-flow: dense it will keep any space prior to
+it. so 2nd will go at first position
+*/
+
+}
+.box2{
+background-color: blue;
+}
+.box3{
+
+background-color: green;
+}
+
+.box4{
+background-color: yellow;
+}
+
+.box5{  
+background-color: pink;
+
+}
+.box6{
+
+background-color: orange;
+
+}
+
+.box7{
+background-color: purple;
+
+}
+
+.box8{
+background-color: brown;
+
+}
+
+.box9{
+background-color: black;
+}
+
+
+
+
